@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(103, 0, 228);
+    background-image: url('img/Corações\ pequenos\ varios.gif');
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -17,6 +17,9 @@ body {
 }
 
 h2 {
+    color: black;
+    border-radius: 6px;
+    background-color: white;
     font-size: 50px;
     margin-bottom: 20px;
 }
