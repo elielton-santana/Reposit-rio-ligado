@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'amor';
+    src: url('FOntes/KINKEE__.TTF');
+}
+
+
+
 body {
-    background-image: url('img/Corações\ pequenos\ varios.gif');
+    
+    background-image: url('img/bacground-do-site-corações.gif');
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -17,8 +25,10 @@ body {
 }
 
 h2 {
+    font-family: 'amor';
+    border: solid 5px blueviolet;
     color: black;
-    border-radius: 6px;
+    border-radius: 20px;
     background-color: white;
     font-size: 50px;
     margin-bottom: 20px;
@@ -27,9 +37,9 @@ h2 {
 button {
 
     font-size: 40px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 20px 30px;
     font-size: 50px;
     cursor: pointer;
